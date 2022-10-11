@@ -4,19 +4,25 @@ import { RouterModule, Routes } from '@angular/router'
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HomePageSectionComponent } from './sections/home-page-section/home-page-section.component';
+import { AboutSectionComponent } from './sections/about-section/about-section.component';
 
 const routes: Routes = [
-  { path: '', component: AppComponent },
+  { path: '', component: HomePageSectionComponent },
+  { path: 'about', component: AboutSectionComponent }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HomePageSectionComponent,
+    AboutSectionComponent
   ],
   imports: [
-    BrowserModule, RouterModule.forRoot(routes)
+    BrowserModule, 
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
