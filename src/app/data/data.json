@@ -1,0 +1,16 @@
+{
+    "footer": [{
+        "links": [
+            { "href": "/home", "about": "Home" },
+            { "href": "/features", "about": "Features" },
+            { "href": "/pricing", "about": "Pricing" },
+            { "href": "/faq", "about": "FAQ" },
+            { "href": "/about", "about": "About" }
+        ],
+        "socialmedia" : [
+            { "name": "facebook", "href": "/facebook", "icon": "bi-facebook" },
+            { "name": "twitter", "href": "/twitter", "icon": "bi-facebook" },
+            { "name": "linkedin", "href": "/linkedin", "icon": "bi-facebook" }
+        ]
+    }]
+}
