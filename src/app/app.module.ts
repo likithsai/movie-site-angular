@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomePageSectionComponent } from './sections/home-page-section/home-page-section.component';
 import { AboutSectionComponent } from './sections/about-section/about-section.component';
 import { MovieDetailSectionComponent } from './sections/movie-detail-section/movie-detail-section.component';
+import { JSONService } from './services/jsonservice.service';
 
 const routes: Routes = [
   { path: '', component: HomePageSectionComponent },
@@ -29,7 +30,7 @@ const routes: Routes = [
     HttpClientModule,
     RouterModule.forRoot(routes, { onSameUrlNavigation: 'reload' })
   ],
-  providers: [],
+  providers: [JSONService],
   bootstrap: [AppComponent]
 })
 
