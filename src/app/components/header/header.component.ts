@@ -7,13 +7,16 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 
 export class HeaderComponent implements OnInit {
-  @Input() headerTitle: String;
+  @Input('data') headerData: any;
+  headerTitle: String = '';
 
   constructor() {
-    this.headerTitle = 'Movies123';
   }
 
   ngOnInit(): void {
+    setTimeout(() => {
+        this.headerTitle = this.headerData[0].title;
+    }, 100);
   }
 
 }

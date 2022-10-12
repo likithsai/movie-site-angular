@@ -8,12 +8,15 @@ import { JSONService } from './services/jsonservice.service';
 })
 
 export class AppComponent implements OnInit {
+  headerData: any;
+  footerData: any;
+
   constructor(private data: JSONService) {}
 
   ngOnInit(): void {
       this.data.getData().subscribe(data => {
-          console.log(data);
+          this.headerData = data.header;
+          // this.footerData = data.footer;
       });
   }
-  // title = 'movie-site-angular';
 }

@@ -1,5 +1,7 @@
 {
-    "header": [],
+    "header": [{
+        "title": "Movies123"
+    }],
     "footer": [{
         "links": [
             { "href": "/home", "about": "Home", "icon": "bi-facebook" },
