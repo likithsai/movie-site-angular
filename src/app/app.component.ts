@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
       this.data.getData().subscribe(data => {
           this.headerData = data.header;
-          // this.footerData = data.footer;
+          this.footerData = data.footer;
       });
   }
 }

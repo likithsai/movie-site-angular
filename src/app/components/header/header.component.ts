@@ -9,6 +9,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class HeaderComponent implements OnInit {
   @Input('data') headerData: any;
   headerTitle: String = '';
+  headerIcon: String = '';
 
   constructor() {
   }
@@ -16,7 +17,8 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
     setTimeout(() => {
         this.headerTitle = this.headerData[0].title;
-    }, 100);
+        this.headerIcon = this.headerData[0].icon;
+    }, 10);
   }
 
 }

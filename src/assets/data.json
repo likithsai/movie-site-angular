@@ -1,19 +1,21 @@
 {
     "header": [{
-        "title": "Movies123"
+        "title": "Movies123",
+        "icon": "bi bi-easel2-fill"
     }],
     "footer": [{
+        "copyrighttext": "© 2021 Company, Inc",
         "links": [
-            { "href": "/home", "about": "Home", "icon": "bi-facebook" },
-            { "href": "/features", "about": "Features", "icon": "bi-facebook" },
-            { "href": "/pricing", "about": "Pricing", "icon": "bi-facebook" },
-            { "href": "/faq", "about": "FAQ", "icon": "bi-facebook" },
-            { "href": "/about", "about": "About", "icon": "bi-facebook" }
+            { "href": "/", "name": "Home", "icon": "bi-facebook" },
+            { "href": "/features", "name": "Features", "icon": "bi-facebook" },
+            { "href": "/pricing", "name": "Pricing", "icon": "bi-facebook" },
+            { "href": "/faq", "name": "FAQ", "icon": "bi-facebook" },
+            { "href": "/about", "name": "About", "icon": "bi-facebook" }
         ],
         "socialmedia" : [
             { "name": "facebook", "href": "/facebook", "icon": "bi-facebook" },
-            { "name": "twitter", "href": "/twitter", "icon": "bi-facebook" },
-            { "name": "linkedin", "href": "/linkedin", "icon": "bi-facebook" }
+            { "name": "twitter", "href": "/twitter", "icon": "bi-twitter" },
+            { "name": "linkedin", "href": "/linkedin", "icon": "bi-linkedin" }
         ]
     }]
 }
