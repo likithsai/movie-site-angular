@@ -10,12 +10,14 @@ import { JSONService } from './services/jsonservice.service';
 export class AppComponent implements OnInit {
   headerData: any;
   footerData: any;
+  contentData: any;
 
   constructor(private data: JSONService) {}
 
   ngOnInit(): void {
       this.data.getData().subscribe(data => {
           this.headerData = data.header;
+          this.contentData = data.content;
           this.footerData = data.footer;
       });
   }

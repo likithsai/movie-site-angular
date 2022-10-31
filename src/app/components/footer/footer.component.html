@@ -1,4 +1,4 @@
-<footer class="py-4 bg-light">
+<footer class="py-4 bg-light shadow-sm">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
       <li class="nav-item" *ngFor="let links of footerLinks">
         <a href="{{ links.href }}" class="nav-link px-2 text-muted">{{ links.name }}</a>
@@ -10,5 +10,4 @@
         <a href="{{ sc.href }}" class="nav-link px-2 text-muted"><i class="bi {{ sc.icon }} fs-4"></i></a>
       </li>
     </ul>
-    
 </footer>

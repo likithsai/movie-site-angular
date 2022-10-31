@@ -3,8 +3,9 @@
         "title": "Movies123",
         "icon": "bi bi-easel2-fill"
     }],
+    "content": [],
     "footer": [{
-        "copyrighttext": "© 2021 Company, Inc",
+        "copyrighttext": "© 2022 melotic, Inc",
         "links": [
             { "href": "/", "name": "Home", "icon": "bi-facebook" },
             { "href": "/features", "name": "Features", "icon": "bi-facebook" },
