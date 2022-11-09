@@ -10,6 +10,7 @@ import { AboutSectionComponent } from './sections/about-section/about-section.co
 import { MovieDetailSectionComponent } from './sections/movie-detail-section/movie-detail-section.component';
 import { JSONService } from './services/jsonservice.service';
 import { JumboltronComponent } from './components/jumboltron/jumboltron.component';
+import { MovieDetailJumboltronComponent } from './components/movie-detail-jumboltron/movie-detail-jumboltron.component';
 
 const routes: Routes = [
   { path: '', component: HomePageSectionComponent },
@@ -25,7 +26,8 @@ const routes: Routes = [
     HomePageSectionComponent,
     AboutSectionComponent,
     MovieDetailSectionComponent,
-    JumboltronComponent
+    JumboltronComponent,
+    MovieDetailJumboltronComponent
   ],
   imports: [
     BrowserModule, 
