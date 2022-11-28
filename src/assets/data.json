@@ -14,9 +14,9 @@
             { "href": "/about", "name": "About", "icon": "bi-facebook" }
         ],
         "socialmedia" : [
-            { "name": "facebook", "href": "/facebook", "icon": "bi-facebook" },
-            { "name": "twitter", "href": "/twitter", "icon": "bi-twitter" },
-            { "name": "linkedin", "href": "/linkedin", "icon": "bi-linkedin" }
+            { "name": "facebook", "href": "/facebook", "icon": "bi-facebook", "isExternal": true },
+            { "name": "twitter", "href": "/twitter", "icon": "bi-twitter", "isExternal": false },
+            { "name": "linkedin", "href": "/linkedin", "icon": "bi-linkedin", "isExternal": true }
         ]
     }]
 }

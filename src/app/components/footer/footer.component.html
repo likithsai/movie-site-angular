@@ -7,7 +7,7 @@
     <p class="text-center text-muted mb-2">{{ footerCopyright }}</p>
     <ul class="nav justify-content-center">
       <li class="nav-item" *ngFor="let sc of footerSocialMedia">
-        <a href="{{ sc.href }}" class="nav-link px-2 text-muted"><i class="bi {{ sc.icon }} fs-4"></i></a>
+        <a target="{{ sc.isExternal ? '_blank' : '_self' }}" href="{{ sc.href }}" class="nav-link px-2 text-muted"><i class="bi {{ sc.icon }} fs-4"></i></a>
       </li>
     </ul>
 </footer>
